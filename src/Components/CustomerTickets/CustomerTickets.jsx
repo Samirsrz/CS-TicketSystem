@@ -4,7 +4,7 @@ import TicketCard from '../TicketCard/TicketCard';
 
 
 
-function CustomerTickets({inProgress,ticketPromise,handleTicket,isResolved}) {
+function CustomerTickets({ticketPromise,handleTicket,isResolved}) {
 
  
  const ticketsData = use(ticketPromise);
