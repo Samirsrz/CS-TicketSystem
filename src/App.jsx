@@ -3,6 +3,7 @@ import CustomerTickets from "./Components/CustomerTickets/CustomerTickets"
 import Navbar from "./Components/Navbar/Navbar"
 import TaskStatus from "./Components/TaskStatus/TaskStatus"
 import bg from "./assets/bg.png"
+import Footer from "./Components/Footer/Footer"
 
 const fetchTickets=async()=>{
     const res = await fetch("/tickets.json")
@@ -32,7 +33,8 @@ function App() {
 
 
   return (
-    <div>
+    <>
+  <div className="max-w-315 mx-auto">
      <Navbar></Navbar>
 <div className="w-full flex gap-2">
   <div
@@ -70,10 +72,12 @@ function App() {
   <div className="w-[25%]">
  <TaskStatus isResolved={isResolved} handleResolved={handleResolved} inProgress={inProgress}></TaskStatus>
   </div>
+   </div>
 </div>
-   
-     
-    </div>
+
+     <Footer></Footer>
+    </>
+  
   )
 }
 
