@@ -1,0 +1,119 @@
+[
+  {
+    "id": "TKT-001",
+    "title": "Login page not loading",
+    "description": "The login page throws a 404 error when accessed from mobile browsers.",
+    "customer": "Alice Johnson",
+    "priority": "HighPriority",
+    "status": "In-Progress",
+    "createdAt": "2026-01-15T08:30:00Z"
+  },
+  {
+    "id": "TKT-002",
+    "title": "Payment gateway failure",
+    "description": "Customers are unable to complete checkout due to payment gateway timeout.",
+    "customer": "Bob Smith",
+    "priority": "MediumPriority",
+    "status": "Open",
+    "createdAt": "2026-01-18T10:15:00Z"
+  },
+  {
+    "id": "TKT-003",
+    "title": "Profile picture not uploading",
+    "description": "Users get an error when trying to upload a profile picture larger than 1MB.",
+    "customer": "Carol White",
+    "priority": "MediumPriority",
+    "status": "Open",
+    "createdAt": "2026-01-20T14:00:00Z"
+  },
+  {
+    "id": "TKT-004",
+    "title": "Email notifications not sending",
+    "description": "Order confirmation emails are not being delivered to customers.",
+    "customer": "David Brown",
+    "priority": "HighPriority",
+    "status": "In-Progress",
+    "createdAt": "2026-01-22T09:45:00Z"
+  },
+  {
+    "id": "TKT-005",
+    "title": "Dashboard charts not rendering",
+    "description": "The analytics dashboard shows blank charts on Safari browser.",
+    "customer": "Eva Martinez",
+    "priority": "MediumPriority",
+    "status": "Open",
+    "createdAt": "2026-01-25T11:30:00Z"
+  },
+  {
+    "id": "TKT-006",
+    "title": "Password reset link expired",
+    "description": "The password reset link expires too quickly, within 2 minutes of generation.",
+    "customer": "Frank Wilson",
+    "priority": "HighPriority",
+    "status": "In-Progress",
+    "createdAt": "2026-02-01T13:20:00Z"
+  },
+  {
+    "id": "TKT-007",
+    "title": "Search bar returning wrong results",
+    "description": "Product search returns unrelated items when special characters are used.",
+    "customer": "Grace Lee",
+    "priority": "LowPriority",
+    "status": "Open",
+    "createdAt": "2026-02-05T16:10:00Z"
+  },
+  {
+    "id": "TKT-008",
+    "title": "Invoice PDF download broken",
+    "description": "Clicking the download invoice button results in a corrupted PDF file.",
+    "customer": "Henry Clark",
+    "priority": "MediumPriority",
+    "status": "In-Progress",
+    "createdAt": "2026-02-08T08:00:00Z"
+  },
+  {
+    "id": "TKT-009",
+    "title": "App crashing on logout",
+    "description": "The mobile app crashes unexpectedly when the user taps the logout button.",
+    "customer": "Isla Thompson",
+    "priority": "LowPriority",
+    "status": "Open",
+    "createdAt": "2026-02-10T17:45:00Z"
+  },
+  {
+    "id": "TKT-010",
+    "title": "Dark mode not saving preference",
+    "description": "Dark mode resets to light mode every time the user refreshes the page.",
+    "customer": "Jack Davis",
+    "priority": "LowPriority",
+    "status": "Open",
+    "createdAt": "2026-02-14T12:00:00Z"
+  },
+  {
+    "id": "TKT-011",
+    "title": "Cart items disappearing",
+    "description": "Items added to the cart are removed after the user navigates to another page.",
+    "customer": "Karen Harris",
+    "priority": "HighPriority",
+    "status": "In-Progress",
+    "createdAt": "2026-02-18T10:30:00Z"
+  },
+  {
+    "id": "TKT-012",
+    "title": "Two-factor authentication not working",
+    "description": "OTP codes sent via SMS are not being accepted during the login process.",
+    "customer": "Liam Robinson",
+    "priority": "MediumPriority",
+    "status": "Open",
+    "createdAt": "2026-02-22T15:00:00Z"
+  },
+  {
+    "id": "TKT-013",
+    "title": "Subscription plan not upgrading",
+    "description": "After payment, the user's account is not upgraded to the premium plan.",
+    "customer": "Mia Anderson",
+    "priority": "LowPriority",
+    "status": "In-Progress",
+    "createdAt": "2026-03-01T09:00:00Z"
+  }
+]
