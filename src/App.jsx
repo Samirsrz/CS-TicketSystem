@@ -36,11 +36,11 @@ function App() {
 
   return (
     <>
-  <div className="max-w-315 mx-auto">
+  <div className="lg:max-w-315 mx-auto">
      <Navbar></Navbar>
-<div className="w-full flex gap-2">
+<div className="w-full flex sm:p-2 lg:flex-row flex-col gap-2">
   <div
-    className="w-[710px] relative rounded-lg h-[250px] flex flex-col items-center justify-center text-white overflow-hidden"
+    className="lg:w-[710px] relative rounded-lg h-[250px] flex flex-col items-center justify-center text-white overflow-hidden"
     style={{ background: "linear-gradient(to right, #632EE3, #9F62F2)" }}
   >
     <img src={bg} className="absolute left-0 top-0 w-1/2 opacity-60" />
@@ -52,7 +52,7 @@ function App() {
   </div>
 
   <div
-    className="w-[710px] relative rounded-lg h-[250px] flex flex-col items-center justify-center text-white overflow-hidden"
+    className="lg:w-[710px] relative rounded-lg h-[250px] flex flex-col items-center justify-center text-white overflow-hidden"
     style={{ background: "linear-gradient(to right, #54CF68, #00827A)" }}
   >
     <img src={bg} className="absolute left-0 top-0 w-1/2 opacity-60" />
@@ -66,12 +66,12 @@ function App() {
 
 
 <div className="flex gap-8 w-full p-4">
-  <div className="w-[75%] ">
+  <div className="lg:w-[75%] sm:w-full ">
    <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
     <CustomerTickets isResolved={isResolved} inProgress={inProgress} handleTicket={handleTicket} ticketPromise={ticketPromise}></CustomerTickets>
    </Suspense>
   </div>
-  <div className="w-[25%]">
+  <div className="lg:w-[25%] sm:w-full">
  <TaskStatus isResolved={isResolved} handleResolved={handleResolved} inProgress={inProgress}></TaskStatus>
   </div>
    </div>

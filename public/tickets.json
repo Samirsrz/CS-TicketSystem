@@ -6,7 +6,7 @@
     "customer": "Alice Johnson",
     "priority": "HighPriority",
     "status": "In-Progress",
-    "createdAt": "2026-01-15T08:30:00Z"
+    "createdAt": "2026-01-15"
   },
   {
     "id": "TKT-002",
@@ -15,7 +15,7 @@
     "customer": "Bob Smith",
     "priority": "MediumPriority",
     "status": "Open",
-    "createdAt": "2026-01-18T10:15:00Z"
+    "createdAt": "2026-01-18"
   },
   {
     "id": "TKT-003",
@@ -24,7 +24,7 @@
     "customer": "Carol White",
     "priority": "MediumPriority",
     "status": "Open",
-    "createdAt": "2026-01-20T14:00:00Z"
+    "createdAt": "2026-01-20"
   },
   {
     "id": "TKT-004",
@@ -33,7 +33,7 @@
     "customer": "David Brown",
     "priority": "HighPriority",
     "status": "In-Progress",
-    "createdAt": "2026-01-22T09:45:00Z"
+    "createdAt": "2026-01-22"
   },
   {
     "id": "TKT-005",
@@ -42,7 +42,7 @@
     "customer": "Eva Martinez",
     "priority": "MediumPriority",
     "status": "Open",
-    "createdAt": "2026-01-25T11:30:00Z"
+    "createdAt": "2026-01-25"
   },
   {
     "id": "TKT-006",
@@ -51,7 +51,7 @@
     "customer": "Frank Wilson",
     "priority": "HighPriority",
     "status": "In-Progress",
-    "createdAt": "2026-02-01T13:20:00Z"
+    "createdAt": "2026-02-01"
   },
   {
     "id": "TKT-007",
@@ -60,7 +60,7 @@
     "customer": "Grace Lee",
     "priority": "LowPriority",
     "status": "Open",
-    "createdAt": "2026-02-05T16:10:00Z"
+    "createdAt": "2026-02-05"
   },
   {
     "id": "TKT-008",
@@ -69,7 +69,7 @@
     "customer": "Henry Clark",
     "priority": "MediumPriority",
     "status": "In-Progress",
-    "createdAt": "2026-02-08T08:00:00Z"
+    "createdAt": "2026-02-08"
   },
   {
     "id": "TKT-009",
@@ -78,7 +78,7 @@
     "customer": "Isla Thompson",
     "priority": "LowPriority",
     "status": "Open",
-    "createdAt": "2026-02-10T17:45:00Z"
+    "createdAt": "2026-02-10"
   },
   {
     "id": "TKT-010",
@@ -87,7 +87,7 @@
     "customer": "Jack Davis",
     "priority": "LowPriority",
     "status": "Open",
-    "createdAt": "2026-02-14T12:00:00Z"
+    "createdAt": "2026-02-14"
   },
   {
     "id": "TKT-011",
@@ -96,7 +96,7 @@
     "customer": "Karen Harris",
     "priority": "HighPriority",
     "status": "In-Progress",
-    "createdAt": "2026-02-18T10:30:00Z"
+    "createdAt": "2026-02-18"
   },
   {
     "id": "TKT-012",
@@ -105,7 +105,7 @@
     "customer": "Liam Robinson",
     "priority": "MediumPriority",
     "status": "Open",
-    "createdAt": "2026-02-22T15:00:00Z"
+    "createdAt": "2026-02-22"
   },
   {
     "id": "TKT-013",
@@ -114,6 +114,6 @@
     "customer": "Mia Anderson",
     "priority": "LowPriority",
     "status": "In-Progress",
-    "createdAt": "2026-03-01T09:00:00Z"
+    "createdAt": "2026-03-01"
   }
 ]

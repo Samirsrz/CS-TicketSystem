@@ -6,10 +6,10 @@ function TicketCard({ticket,handleTicket}) {
 
 
  return (
-              <div onClick={()=>handleTicket(ticket)} className='bg-base-100 rounded-2xl shadow-lg p-4  border-l-4 border-purple-500 border-r-4'>
-  <div className='flex justify-between items-center mb-2'>
+              <div onClick={()=>handleTicket(ticket)} className='bg-base-100 rounded-2xl shadow-lg p-4 sm:w-full'>
+  <div className='flex flex-col lg:flex-row justify-between items-center mb-2'>
     <h1 className='text-lg font-bold text-gray-800'>{ticket.title}</h1>
-    <button className={`text-xs font-semibold px-3 py-1 rounded-full
+    <button className={`text-xs font-semibold sm:p-1 lg:px-3 lg:py-1 rounded-full
         ${ticket.status === "Open" ? "bg-green-100 text-green-700" :
           ticket.status === "In-Progress" ? "bg-yellow-100 text-yellow-700" :
           "bg-blue-100 text-blue-700"}`}>
@@ -23,7 +23,7 @@ function TicketCard({ticket,handleTicket}) {
 
   <hr className='mb-3' />
 
-  <div className='flex justify-between items-center text-xs text-gray-500'>
+  <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center text-xs text-gray-500'>
     <span className='font-semibold text-purple-500'>#{ticket.id}</span>
     <span className={`font-semibold px-3 py-1 rounded-full
         ${ticket.priority === "HighPriority" ?  "text-red-500" :
