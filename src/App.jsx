@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import TaskStatus from "./Components/TaskStatus/TaskStatus"
 import bg from "./assets/bg.png"
 import Footer from "./Components/Footer/Footer"
+import { toast, ToastContainer } from "react-toastify"
 
 const fetchTickets=async()=>{
     const res = await fetch("/tickets.json")
@@ -21,13 +22,14 @@ function App() {
 
  const handleTicket=(ticket)=>{
    setInProgress([...inProgress,ticket])
+   toast('Added in the List')
  }
 
  const handleResolved=(ticket)=>{
    setInProgress(inProgress.filter(t=>t.id!==ticket.id))
-   
    setIsResolved([...isResolved,ticket])
-   console.log('this is resolved button',isResolved);
+  
+   toast('Completed')
  }
 
 
@@ -76,6 +78,8 @@ function App() {
 </div>
 
      <Footer></Footer>
+
+     <ToastContainer></ToastContainer>
     </>
   
   )
