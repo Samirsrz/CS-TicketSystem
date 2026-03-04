@@ -35,11 +35,8 @@ function TaskStatus({isResolved,inProgress,handleResolved}) {
             
             isResolved.map(t => (
                 <div key={t.id} className='bg-base-300 p-2 rounded-lg'>
-                  <p className='text-sm font-semibold mb-2'>{t.title}</p>
-                  <button
-                    className='btn w-full text-white p-1 font-bold rounded-lg bg-gradient-to-r from-[#00827A] to-[#54CF68]'>
-                    Completed
-                  </button>
+                  <p className='text-sm font-semibold mb-2'>✅{t.title}</p>
+                
                 </div>
               ))
           }

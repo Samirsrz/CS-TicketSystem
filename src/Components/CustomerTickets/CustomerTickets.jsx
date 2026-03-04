@@ -4,7 +4,7 @@ import TicketCard from '../TicketCard/TicketCard';
 
 
 
-function CustomerTickets({inProgress,ticketPromise,handleTicket}) {
+function CustomerTickets({inProgress,ticketPromise,handleTicket,isResolved}) {
 
  
  const ticketsData = use(ticketPromise);
@@ -15,7 +15,7 @@ function CustomerTickets({inProgress,ticketPromise,handleTicket}) {
         <div className='grid grid-cols-2 gap-2.5'>
         {
           ticketsData
-          .filter(ticket => !inProgress.find(t => t.id === ticket.id))
+          .filter(ticket => !inProgress.find(t => t.id === ticket.id) || !isResolved.find(t=>t.id===ticket.id))
           .map(ticket => (
             <TicketCard handleTicket={handleTicket} key={ticket.id} ticket={ticket} />
 

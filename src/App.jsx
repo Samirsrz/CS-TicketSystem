@@ -64,7 +64,7 @@ function App() {
 <div className="flex gap-8 w-full p-4">
   <div className="w-[75%] ">
    <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
-    <CustomerTickets inProgress={inProgress} handleTicket={handleTicket} ticketPromise={ticketPromise}></CustomerTickets>
+    <CustomerTickets isResolved={isResolved} inProgress={inProgress} handleTicket={handleTicket} ticketPromise={ticketPromise}></CustomerTickets>
    </Suspense>
   </div>
   <div className="w-[25%]">
